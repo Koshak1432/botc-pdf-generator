@@ -1,0 +1,696 @@
+@page {
+  size: A4 portrait;
+  margin: 0;
+}
+
+:root {
+  --role-name-font-size: 18pt;
+  --role-description-font-size: 14.5pt;
+  --role-good-highlight-color: #146bb3;
+  --role-evil-highlight-color: #991c35;
+  --role-icon-size: 19mm;
+  --role-icon-min-size: 12mm;
+  --role-icon-slot-width: 19mm;
+  --role-icon-slot-height: 15.5mm;
+  --role-card-min-height: 15.5mm;
+  --role-card-padding-y: 0.25mm;
+  --section-label-width: 8.5mm;
+  --section-content-indent: 0.5mm;
+  --script-title-font-family: "Memo Dumbledor", serif;
+  color-scheme: light;
+  font-family: "Memo Dumbledor", serif;
+  font-synthesis: weight;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #ececec;
+}
+
+body {
+  color: #111;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+.memo-document {
+  margin: 0;
+  padding: 0;
+}
+
+.memo-page {
+  --role-icon-scale: 1;
+  position: relative;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  width: 210mm;
+  height: 297mm;
+  margin: 0 auto;
+  padding: 4mm 4mm 4mm;
+  overflow: hidden;
+  break-after: page;
+  background: #fff;
+}
+
+.memo-page:last-child {
+  break-after: auto;
+}
+
+.page-header {
+  position: relative;
+  display: grid;
+  grid-template-columns: 20mm minmax(0, 1fr) 20mm;
+  align-items: start;
+  min-height: 9.5mm;
+  padding-top: 0.2mm;
+}
+
+.script-mark {
+  display: grid;
+  place-items: center;
+  width: 16mm;
+  height: 16mm;
+}
+
+.script-mark:empty {
+  height: 0;
+  visibility: hidden;
+}
+
+.script-mark img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.title-block {
+  min-width: 0;
+  text-align: center;
+}
+
+.title-block h1 {
+  margin: 0;
+  overflow: hidden;
+  color: #090909;
+  font-family: var(--script-title-font-family);
+  font-size: 20pt;
+  font-weight: 500;
+  letter-spacing: 0.015em;
+  line-height: 1.02;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.title-subtitle {
+  margin: 0.3mm 0 0;
+  color: #333;
+  font-size: 6pt;
+  line-height: 1.05;
+}
+
+.page-sections {
+  align-self: start;
+}
+
+.role-section {
+  --team: #168eb5;
+  position: relative;
+  isolation: isolate;
+  display: grid;
+  grid-template-columns: var(--section-label-width) minmax(0, 1fr);
+  border-top: 0;
+}
+
+.role-section + .role-section {
+  z-index: 5;
+  border-top: 0.25mm solid transparent;
+  border-image: linear-gradient(
+      90deg,
+      rgba(105, 105, 105, 0.95) 0%,
+      rgba(125, 125, 125, 0.72) 53%,
+      rgba(141, 141, 141, 0) 90%,
+      rgba(141, 141, 141, 0) 100%
+    )
+    1;
+  margin-top: 1mm;
+  padding-top: 1mm;
+}
+
+.team-townsfolk,
+.team-outsider {
+  --team: #146bb3;
+}
+
+.team-minion,
+.team-demon {
+  --team: #991c35;
+}
+
+.team-traveller,
+.team-fabled,
+.team-loric {
+  --team: #756529;
+}
+
+.section-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 1mm 0;
+
+  color: #151515;
+  font-family: "Memo Dumbledor", serif;
+  font-size: 14pt;
+  font-weight: 600;
+  letter-spacing: 0.075em;
+  line-height: 1;
+  text-transform: uppercase;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+
+.section-heading small {
+  display: none;
+}
+
+.section-body {
+  min-width: 0;
+  padding: 0.05mm 0 0.05mm var(--section-content-indent);
+}
+
+.section-columns {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  column-gap: 4.5mm;
+  align-items: start;
+}
+
+.section-column {
+  min-width: 0;
+}
+
+.role-card {
+  position: relative;
+  display: grid;
+  grid-template-columns: calc(
+      var(--role-icon-slot-width) * var(--role-icon-scale)
+    ) minmax(0, 1fr);
+  column-gap: 0mm;
+  align-items: start;
+  min-height: calc(var(--role-card-min-height) * var(--role-icon-scale));
+  padding: var(--role-card-padding-y) 0;
+  overflow: visible;
+  break-inside: avoid;
+}
+
+.role-size-probe {
+  width: var(--role-icon-size);
+  height: var(--role-icon-min-size);
+}
+
+.role-icon {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: calc(var(--role-icon-slot-width) * var(--role-icon-scale));
+  height: calc(var(--role-icon-slot-height) * var(--role-icon-scale));
+  margin-top: 0;
+  overflow: visible;
+}
+
+.role-icon img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  width: calc(var(--role-icon-size) * var(--role-icon-scale));
+  height: calc(var(--role-icon-size) * var(--role-icon-scale));
+  transform: translate(-50%, -50%);
+  object-fit: contain;
+}
+
+.role-copy {
+  position: relative;
+  z-index: 3;
+  min-width: 0;
+  padding-top: 0;
+}
+
+.role-copy h3 {
+  margin: 0 0 0.8mm;
+  color: var(--team, #171717);
+  font-family: "Memo Dumbledor", serif;
+  font-size: var(--role-name-font-size);
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  line-height: 0.84;
+  -webkit-text-stroke: 0.08px currentColor;
+}
+
+.role-copy p {
+  margin: 0;
+  color: #111;
+  font-family: "Memo Dumbledor", serif;
+  font-size: var(--role-description-font-size);
+  line-height: 0.8;
+  overflow-wrap: anywhere;
+  text-align: justify;
+  text-align-last: left;
+  text-justify: inter-word;
+}
+
+.role-copy strong {
+  font-weight: 700;
+}
+
+.page-footer {
+  align-self: end;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  min-height: 2mm;
+  padding-top: 0.2mm;
+  color: #222;
+  font-family: "Memo Dumbledor", serif;
+  font-size: 11pt;
+  line-height: 1;
+  text-align: center;
+}
+
+.memo-page--night {
+  --night-order-icon-size: 13mm;
+  --night-order-row-height: 9.5mm;
+  --night-table-width: 140mm;
+  --night-table-min-width: 70mm;
+  --night-table-bottom: 5mm;
+  --night-table-gap-mm: 3;
+  grid-template-rows: auto 1fr;
+  padding: 5mm 7mm 5mm;
+}
+
+.night-page-header {
+  min-height: 17mm;
+  text-align: center;
+}
+
+.night-page-header h1 {
+  margin: 0;
+  overflow: hidden;
+  color: #090909;
+  font-family: var(--script-title-font-family);
+  font-size: 20pt;
+  font-weight: 500;
+  letter-spacing: 0.015em;
+  line-height: 1.02;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.night-layout {
+  display: grid;
+  grid-template-columns: 48mm minmax(0, 1fr) 48mm;
+  column-gap: 2.5mm;
+  align-items: start;
+  min-height: 0;
+}
+
+.night-side {
+  display: grid;
+  align-items: stretch;
+  min-width: 0;
+}
+
+.night-side--first {
+  grid-template-columns: 7mm minmax(0, 1fr);
+}
+
+.night-side--other {
+  grid-template-columns: minmax(0, 1fr) 7mm;
+}
+
+.night-side-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+  margin: 0;
+  color: #151515;
+  font-family: "Memo Dumbledor", serif;
+  font-size: 13pt;
+  font-weight: 600;
+  letter-spacing: 0.045em;
+  line-height: 1;
+  text-transform: uppercase;
+  white-space: nowrap;
+  writing-mode: vertical-rl;
+}
+
+.night-side--first .night-side-heading {
+  grid-column: 1;
+  transform: rotate(180deg);
+}
+
+.night-side--other .night-side-heading {
+  grid-column: 2;
+}
+
+.night-order {
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.night-side--first .night-order {
+  grid-column: 2;
+}
+
+.night-side--other .night-order {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.night-order-row {
+  display: grid;
+  align-items: center;
+  min-width: 0;
+  min-height: var(--night-order-row-height);
+  color: var(--team, #171717);
+  break-inside: avoid;
+}
+
+.night-side--first .night-order-row {
+  grid-template-columns: var(--night-order-icon-size) minmax(0, 1fr) 0.55mm;
+  grid-template-areas: "icon name stroke";
+}
+
+.night-side--other .night-order-row {
+  grid-template-columns: 0.55mm minmax(0, 1fr) var(--night-order-icon-size);
+  grid-template-areas: "stroke name icon";
+}
+
+.night-team-stroke {
+  grid-area: stroke;
+  align-self: center;
+  width: 100%;
+  height: 6.7mm;
+  min-height: 0;
+  background: var(--team, #171717);
+}
+
+.night-order-name {
+  grid-area: name;
+  min-width: 0;
+  padding: 0 1.2mm;
+  overflow-wrap: anywhere;
+  font-family: "Memo Dumbledor", serif;
+  font-size: 14pt;
+  font-weight: 500;
+  letter-spacing: -0.005em;
+  line-height: 0.82;
+  -webkit-text-stroke: 0.05px currentColor;
+}
+
+.night-side--first .night-order-name {
+  text-align: right;
+}
+
+.night-side--other .night-order-name {
+  text-align: left;
+}
+
+.night-side--first .night-order-row--role .night-order-name {
+  padding-left: 0.35mm;
+}
+
+.night-side--other .night-order-row--role .night-order-name {
+  padding-right: 0.35mm;
+}
+
+.night-order-row--marker {
+  --team: #171717;
+  color: #171717;
+}
+
+.night-order-row--role .night-order-name {
+  color: var(--team, #171717);
+}
+
+.night-order-row--marker .night-order-name {
+  color: #171717;
+  font-weight: 400;
+}
+
+.night-role-icon,
+.night-marker-icon {
+  grid-area: icon;
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 9.5mm;
+  height: 8.5mm;
+  overflow: visible;
+}
+
+.night-role-icon img,
+.night-marker-icon img {
+  display: block;
+  width: 9.2mm;
+  height: 9.2mm;
+  object-fit: contain;
+}
+
+.night-order-row--role .night-role-icon img,
+.night-order-row--marker .night-marker-icon img,
+.night-order-row--marker .night-marker-icon svg {
+  width: var(--night-order-icon-size);
+  height: var(--night-order-icon-size);
+}
+
+.night-order-row--marker .night-marker-icon--dusk svg,
+.night-order-row--marker .night-marker-icon--dawn svg {
+  width: calc(var(--night-order-icon-size) * 0.85);
+  height: calc(var(--night-order-icon-size) * 0.85);
+}
+
+.night-order-row .night-role-icon,
+.night-order-row .night-marker-icon {
+  grid-template-rows: minmax(0, 1fr);
+  width: var(--night-order-icon-size);
+  height: var(--night-order-row-height);
+}
+
+.night-marker-icon svg {
+  display: block;
+  overflow: visible;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.6;
+}
+
+.night-marker-icon--dusk {
+  color: #77a7bd;
+}
+
+.night-marker-icon--dusk svg {
+  fill: currentColor;
+  stroke: none;
+}
+
+.night-marker-icon--dawn {
+  color: #d2a72b;
+}
+
+.night-marker-icon--dawn circle {
+  fill: currentColor;
+  stroke: none;
+}
+
+.night-marker-icon--dawn path {
+  fill: none;
+  stroke: currentColor;
+}
+
+.night-center {
+  min-width: 0;
+}
+
+.night-bootlegger {
+  margin-bottom: 3mm;
+  break-inside: avoid;
+}
+
+[data-role-id="bootlegger"] .role-ability,
+.night-bootlegger p {
+  white-space: pre-line;
+}
+
+.night-bootlegger p + p {
+  margin-top: 1.2mm;
+}
+
+.night-jinxes {
+  min-width: 0;
+  padding-top: 0.3mm;
+}
+
+.night-player-table {
+  position: absolute;
+  bottom: var(--night-table-bottom);
+  left: 50%;
+  width: var(--night-table-width);
+  min-width: var(--night-table-min-width);
+  max-width: calc(100% - 14mm);
+  margin: 0;
+  transform: translateX(-50%);
+}
+
+.night-player-table img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.night-player-table figcaption {
+  display: none;
+}
+
+.night-player-table[data-fit-state="blocked"] img {
+  visibility: hidden;
+}
+
+.night-player-table[data-fit-state="blocked"] figcaption {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  color: #991c35;
+  font-size: 11pt;
+  text-align: center;
+}
+
+.night-bootlegger > h2,
+.night-jinxes > h2 {
+  margin: 0 0 1mm;
+  color: #171717;
+  font-family: "Memo Dumbledor", serif;
+  font-size: 15pt;
+  font-weight: 600;
+  letter-spacing: 0.045em;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.jinx-list {
+  display: grid;
+  gap: 1.2mm;
+}
+
+.jinx-item {
+  display: grid;
+  grid-template-columns: 21mm minmax(0, 1fr);
+  column-gap: 0.4mm;
+  align-items: center;
+  min-width: 0;
+  break-inside: avoid;
+}
+
+.jinx-icons {
+  position: relative;
+  display: grid;
+  /* Сближаем рисунки за счёт прозрачных полей изображений. */
+  grid-template-columns: 9.5mm 11.5mm;
+  align-items: center;
+  justify-items: start;
+  width: 21mm;
+}
+
+.jinx-icons .night-role-icon {
+  grid-area: auto;
+  width: 11.5mm;
+  height: 11.5mm;
+}
+
+.jinx-icons .night-role-icon img {
+  width: 11.5mm;
+  height: 11.5mm;
+}
+
+.jinx-icons .night-role-icon:first-child,
+.jinx-icons .night-role-icon:first-child img {
+  width: 14mm;
+  height: 14mm;
+}
+
+.jinx-link {
+  display: none;
+}
+
+.jinx-link::before,
+.jinx-link::after {
+  position: absolute;
+  top: 0.8mm;
+  width: 3.2mm;
+  height: 2.1mm;
+  border: 0.35mm solid var(--role-evil-highlight-color);
+  border-radius: 50%;
+  content: "";
+}
+
+.jinx-link::before {
+  left: 0;
+  transform: rotate(-20deg);
+}
+
+.jinx-link::after {
+  right: 0;
+  transform: rotate(20deg);
+}
+
+.night-bootlegger p,
+.jinx-item p {
+  margin: 0;
+  color: #111;
+  font-family: "Memo Dumbledor", serif;
+  font-size: 12pt;
+  line-height: 0.98;
+  overflow-wrap: anywhere;
+}
+
+.jinx-item strong {
+  font-weight: 700;
+}
+@media screen {
+  body {
+    padding: 16px 0;
+  }
+
+  .memo-page {
+    margin-bottom: 16px;
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.2);
+  }
+}
+
+@media print {
+  html,
+  body {
+    background: transparent;
+  }
+
+  .memo-page {
+    margin: 0;
+    box-shadow: none;
+  }
+}

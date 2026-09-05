@@ -1,0 +1,327 @@
+[
+  {
+    "id": "general",
+    "name": "General",
+    "team": "townsfolk",
+    "edition": "carousel",
+    "ability": "Each night, you learn which alignment the Storyteller believes is winning: good, evil, or neither.",
+    "translations": {
+      "ru": {
+        "name": "Генерал",
+        "ability": "[b]Каждую ночь:[/b] вы узнаете, кто, по мнению Рассказчика, ближе к победе: добро, зло или ни те ни другие."
+      }
+    }
+  },
+  {
+    "id": "villageidiot",
+    "name": "Village Idiot",
+    "team": "townsfolk",
+    "edition": "carousel",
+    "ability": "Each night, choose a player: you learn their alignment. [+0 to +2 Village Idiots. 1 of the extras is drunk]",
+    "translations": {
+      "ru": {
+        "name": "Дурачок",
+        "ability": "[b]Каждую ночь:[/b] выберите игрока. Вы узнаете его сторону. [color=#C22959][От +0 до +2 Дурачков. Один из дополнительных пьян][/color]"
+      }
+    }
+  },
+  {
+    "id": "towncrier",
+    "name": "Town Crier",
+    "team": "townsfolk",
+    "edition": "snv",
+    "ability": "Each night*, you learn if a Minion nominated today.",
+    "translations": {
+      "ru": {
+        "name": "Глашатай",
+        "ability": "[b]Каждую ночь*:[/b] вы узнаете, номинировал ли Приспешник прошедшим днем."
+      }
+    }
+  },
+  {
+    "id": "innkeeper",
+    "name": "Innkeeper",
+    "team": "townsfolk",
+    "edition": "bmr",
+    "ability": "Each night*, choose 2 players: they can\u0027t die tonight, but 1 is drunk until dusk.",
+    "translations": {
+      "ru": {
+        "name": "Трактирщик",
+        "ability": "[b]Каждую ночь*:[/b] выберите двух игроков. Они не могут умереть этой ночью, но один из них пьян до заката."
+      }
+    }
+  },
+  {
+    "id": "gambler",
+    "name": "Gambler",
+    "team": "townsfolk",
+    "edition": "bmr",
+    "ability": "Each night*, choose a player \u0026 guess their character: if you guess wrong, you die.",
+    "translations": {
+      "ru": {
+        "name": "Азартный игрок",
+        "ability": "[b]Каждую ночь*:[/b] выберите игрока и угадайте его роль. Если вы ошиблись, вы умираете."
+      }
+    }
+  },
+  {
+    "id": "exorcist",
+    "name": "Exorcist",
+    "team": "townsfolk",
+    "edition": "bmr",
+    "ability": "Each night*, choose a player (different to last night): the Demon, if chosen, learns who you are then doesn\u0027t wake tonight.",
+    "translations": {
+      "ru": {
+        "name": "Экзорцист",
+        "ability": "[b]Каждую ночь*:[/b] выберите игрока (не того же, что прошлой ночью). Если выбран Демон, он узнает, кто вы, и не просыпается этой ночью."
+      }
+    }
+  },
+  {
+    "id": "amnesiac",
+    "name": "Amnesiac",
+    "team": "townsfolk",
+    "edition": "carousel",
+    "ability": "You do not know what your ability is. Each day, privately guess what it is: you learn how accurate you are.",
+    "translations": {
+      "ru": {
+        "name": "Амнезиак",
+        "ability": "Вы не знаете свою способность. [b]Каждый день:[/b] приватно попытайтесь ее угадать. Вы узнаете, насколько точна догадка."
+      }
+    }
+  },
+  {
+    "id": "nightwatchman",
+    "name": "Nightwatchman",
+    "team": "townsfolk",
+    "edition": "carousel",
+    "ability": "Once per game, at night, choose a player: they learn you are the Nightwatchman.",
+    "translations": {
+      "ru": {
+        "name": "Стражник",
+        "ability": "[b]Один раз за игру, ночью:[/b] выберите игрока. Он узнает, что вы - Стражник."
+      }
+    }
+  },
+  {
+    "id": "slayer",
+    "name": "Slayer",
+    "team": "townsfolk",
+    "edition": "tb",
+    "ability": "Once per game, during the day, publicly choose a player: if they are the Demon, they die.",
+    "translations": {
+      "ru": {
+        "name": "Истребитель",
+        "ability": "[b]Один раз за игру, днем:[/b] публично выберите игрока. Если он Демон, он умирает."
+      }
+    }
+  },
+  {
+    "id": "fisherman",
+    "name": "Fisherman",
+    "team": "townsfolk",
+    "edition": "carousel",
+    "ability": "Once per game, during the day, visit the Storyteller for some advice to help your team win.",
+    "translations": {
+      "ru": {
+        "name": "Рыбак",
+        "ability": "[b]Один раз за игру, днем:[/b] приватно навестите Рассказчика и получите совет, который поможет вашей команде победить."
+      }
+    }
+  },
+  {
+    "id": "soldier",
+    "name": "Soldier",
+    "team": "townsfolk",
+    "edition": "tb",
+    "ability": "You are safe from the Demon.",
+    "translations": {
+      "ru": {
+        "name": "Солдат",
+        "ability": "Вы защищены от Демона."
+      }
+    }
+  },
+  {
+    "id": "minstrel",
+    "name": "Minstrel",
+    "team": "townsfolk",
+    "edition": "bmr",
+    "ability": "When a Minion dies by execution, all other players (except Travellers) are drunk until dusk tomorrow.",
+    "translations": {
+      "ru": {
+        "name": "Менестрель",
+        "ability": "Когда Приспешник умирает от казни, все остальные игроки (кроме Странников) пьяны до заката следующего дня."
+      }
+    }
+  },
+  {
+    "id": "cannibal",
+    "name": "Cannibal",
+    "team": "townsfolk",
+    "edition": "carousel",
+    "ability": "You have the ability of the recently killed executee. If they are evil, you are poisoned until a good player dies by execution.",
+    "translations": {
+      "ru": {
+        "name": "Каннибал",
+        "ability": "У вас есть способность последнего казненного игрока. Если он злой, вы отравлены, пока добрый игрок не умрет от казни."
+      }
+    }
+  },
+  {
+    "id": "damsel",
+    "name": "Damsel",
+    "team": "outsider",
+    "edition": "carousel",
+    "ability": "All Minions know a Damsel is in play. If a Minion publicly guesses you (once), your team loses.",
+    "translations": {
+      "ru": {
+        "name": "Дамочка",
+        "ability": "Все Приспешники знают, что Дамочка в игре. Если Приспешник публично угадывает вас (один раз за игру), ваша команда проигрывает."
+      }
+    }
+  },
+  {
+    "id": "drunk",
+    "name": "Drunk",
+    "team": "outsider",
+    "edition": "tb",
+    "ability": "You do not know you are the Drunk. You think you are a Townsfolk character, but you are not.",
+    "translations": {
+      "ru": {
+        "name": "Пьяница",
+        "ability": "Вы не знаете, что вы - Пьяница. Вы считаете себя Горожанином, но это не так."
+      }
+    }
+  },
+  {
+    "id": "golem",
+    "name": "Golem",
+    "team": "outsider",
+    "edition": "carousel",
+    "ability": "You may only nominate once per game. When you do, if the nominee is not the Demon, they die.",
+    "translations": {
+      "ru": {
+        "name": "Голем",
+        "ability": "Вы можете номинировать только один раз за игру. Если номинированный вами игрок не Демон, он умирает."
+      }
+    }
+  },
+  {
+    "id": "politician",
+    "name": "Politician",
+    "team": "outsider",
+    "edition": "carousel",
+    "ability": "If you were the player most responsible for your team losing, you change alignment \u0026 win, even if dead.",
+    "translations": {
+      "ru": {
+        "name": "Политик",
+        "ability": "Если вы больше всех виновны в поражении своей команды, вы меняете сторону и побеждаете, даже будучи мертвым."
+      }
+    }
+  },
+  {
+    "id": "godfather",
+    "name": "Godfather",
+    "team": "minion",
+    "edition": "bmr",
+    "ability": "You start knowing which Outsiders are in play. If 1 died today, choose a player tonight: they die. [-1 or +1 Outsider]",
+    "translations": {
+      "ru": {
+        "name": "Крестный отец",
+        "ability": "[b]Вступление:[/b] вы узнаете, какие Изгои в игре. Если один умер днем, ночью выберите игрока: он умирает. [color=#C22959][-1 или +1 Изгой][/color]"
+      }
+    }
+  },
+  {
+    "id": "summoner",
+    "name": "Summoner",
+    "team": "minion",
+    "edition": "carousel",
+    "ability": "You get 3 bluffs. On the 3rd night, choose a player: they become an evil Demon of your choice. [No Demon]",
+    "translations": {
+      "ru": {
+        "name": "Призыватель",
+        "ability": "Вы получаете 3 блефа. [b]В третью ночь:[/b] выберите игрока. Он становится выбранным вами злым Демоном. [color=#C22959][Нет Демона][/color]"
+      }
+    }
+  },
+  {
+    "id": "assassin",
+    "name": "Assassin",
+    "team": "minion",
+    "edition": "bmr",
+    "ability": "Once per game, at night*, choose a player: they die, even if for some reason they could not.",
+    "translations": {
+      "ru": {
+        "name": "Убийца",
+        "ability": "[b]Один раз за игру, ночью*:[/b] выберите игрока. Он умирает, даже если по какой-либо причине не может умереть."
+      }
+    }
+  },
+  {
+    "id": "scarletwoman",
+    "name": "Scarlet Woman",
+    "team": "minion",
+    "edition": "tb",
+    "ability": "If there are 5 or more players alive \u0026 the Demon dies, you become the Demon. (Travellers don\u0027t count.)",
+    "translations": {
+      "ru": {
+        "name": "Блудница",
+        "ability": "Если живы хотя бы 5 игроков (Странники не считаются) и Демон умирает, вы становитесь Демоном."
+      }
+    }
+  },
+  {
+    "id": "yaggababble",
+    "name": "Yaggababble",
+    "team": "demon",
+    "edition": "carousel",
+    "ability": "You start knowing a secret phrase. For each time you said it publicly today, a player might die.",
+    "translations": {
+      "ru": {
+        "name": "Ягатрёп",
+        "ability": "[b]Вступление:[/b] вы узнаете тайную фразу. За каждое ее публичное произнесение днем один из игроков может умереть."
+      }
+    }
+  },
+  {
+    "id": "pukka",
+    "name": "Pukka",
+    "team": "demon",
+    "edition": "bmr",
+    "ability": "Each night, choose a player: they are poisoned. The previously poisoned player dies then becomes healthy.",
+    "translations": {
+      "ru": {
+        "name": "Пукка",
+        "ability": "[b]Каждую ночь:[/b] выберите игрока. Он отравлен. Предыдущий отравленный игрок умирает, а затем становится здоровым."
+      }
+    }
+  },
+  {
+    "id": "ojo",
+    "name": "Ojo",
+    "team": "demon",
+    "edition": "carousel",
+    "ability": "Each night*, choose a character: they die. If they are not in play, the Storyteller chooses who dies.",
+    "translations": {
+      "ru": {
+        "name": "Охо",
+        "ability": "[b]Каждую ночь*:[/b] выберите роль. Игрок с этой ролью умирает. Если ее нет в игре, Рассказчик выбирает, кто умирает."
+      }
+    }
+  },
+  {
+    "id": "po",
+    "name": "Po",
+    "team": "demon",
+    "edition": "bmr",
+    "ability": "Each night*, you may choose a player: they die. If your last choice was no-one, choose 3 players tonight.",
+    "translations": {
+      "ru": {
+        "name": "По",
+        "ability": "[b]Каждую ночь*:[/b] вы можете выбрать игрока: он умирает. Если в прошлый раз вы никого не выбрали, выберите трех игроков."
+      }
+    }
+  }
+]

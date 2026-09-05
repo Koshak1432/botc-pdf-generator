@@ -1,0 +1,1054 @@
+[
+  {
+    "id": "alchemist",
+    "jinx": [
+      {
+        "id": "boffin",
+        "reason": "If the Alchemist has the Boffin ability, the Alchemist does not learn what ability the Demon has.",
+        "translations": {
+          "ru": "Если [color=#3297F4]Алхимик[/color] обладает способностью [color=#8C0E12]Умника[/color], он не узнаёт, какой способностью обладает [color=#8C0E12]Демон[/color]."
+        }
+      },
+      {
+        "id": "marionette",
+        "reason": "An Alchemist-Marionette has no Marionette ability \u0026 the Marionette is in play.",
+        "translations": {
+          "ru": "[color=#3297F4]Алхимик[/color], которому досталась способность [color=#8C0E12]Марионетки[/color], не обладает ею, а [color=#8C0E12]Марионетка[/color] находится в игре."
+        }
+      },
+      {
+        "id": "mastermind",
+        "reason": "An Alchemist-Mastermind has no Mastermind ability \u0026 the Mastermind is not-in-play.",
+        "translations": {
+          "ru": "[color=#3297F4]Алхимик[/color], которому досталась способность [color=#8C0E12]Кукловода[/color], не обладает ею, а [color=#8C0E12]Кукловод[/color] отсутствует в игре."
+        }
+      },
+      {
+        "id": "organgrinder",
+        "reason": "If the Alchemist has the Organ Grinder ability, the Organ Grinder is in play. If both are sober, both are drunk.",
+        "translations": {
+          "ru": "Если [color=#3297F4]Алхимик[/color] обладает способностью [color=#8C0E12]Шарманщика[/color], то [color=#8C0E12]Шарманщик[/color] находится в игре. Если оба трезвы, оба становятся пьяными."
+        }
+      },
+      {
+        "id": "spy",
+        "reason": "An Alchemist-Spy has no Spy ability \u0026 a Spy is in play. After each execution, a living Alchemist-Spy may publicly guess a living player as the Spy. If correct, the Demon must choose the Spy tonight.",
+        "translations": {
+          "ru": "Если [color=#3297F4]Алхимику[/color] должна достаться способность [color=#8C0E12]Шпиона[/color], он её не получает, а [color=#8C0E12]Шпион[/color] находится в игре. После каждой казни живой [color=#3297F4]Алхимик[/color] может публично назвать одного из живых игроков [color=#8C0E12]Шпионом[/color]. Если он угадал, этой ночью [color=#8C0E12]Демон[/color] должен выбрать [color=#8C0E12]Шпиона[/color]."
+        }
+      },
+      {
+        "id": "summoner",
+        "reason": "The Alchemist-Summoner does not get bluffs, and chooses which Demon but not which player. If they die before this happens, evil wins. [No Demon]",
+        "translations": {
+          "ru": "[color=#3297F4]Алхимик[/color] со способностью [color=#8C0E12]Призывателя[/color] не получает блефы и выбирает роль [color=#8C0E12]Демона[/color], но не игрока. Если он умирает до того, как это произойдёт, зло побеждает. [Демона нет]"
+        }
+      },
+      {
+        "id": "widow",
+        "reason": "An Alchemist-Widow has no Widow ability \u0026 a Widow is in play. After each execution, a living Alchemist-Widow may publicly guess a living player as the Widow. If correct, the Demon must choose the Widow tonight.",
+        "translations": {
+          "ru": "Если [color=#3297F4]Алхимику[/color] должна достаться способность [color=#8C0E12]Вдовы[/color], он её не получает, а [color=#8C0E12]Вдова[/color] находится в игре. После каждой казни живой [color=#3297F4]Алхимик[/color] может публично назвать одного из живых игроков [color=#8C0E12]Вдовой[/color]. Если он угадал, этой ночью [color=#8C0E12]Демон[/color] должен выбрать [color=#8C0E12]Вдову[/color]."
+        }
+      },
+      {
+        "id": "wraith",
+        "reason": "An Alchemist-Wraith has no Wraith ability \u0026 a Wraith is in play. After each execution, a living Alchemist-Wraith may publicly guess a living player as the Wraith. If correct, the Demon must choose the Wraith tonight.",
+        "translations": {
+          "ru": "Если [color=#3297F4]Алхимику[/color] должна достаться способность [color=#8C0E12]Призрака[/color], он её не получает, а [color=#8C0E12]Призрак[/color] находится в игре. После каждой казни живой [color=#3297F4]Алхимик[/color] может публично назвать одного из живых игроков [color=#8C0E12]Призраком[/color]. Если он угадал, этой ночью [color=#8C0E12]Демон[/color] должен выбрать [color=#8C0E12]Призрака[/color]."
+        }
+      }
+    ]
+  },
+  {
+    "id": "alhadikhia",
+    "jinx": [
+      {
+        "id": "mastermind",
+        "reason": "If the Al-Hadikhia dies by execution, and the Mastermind is alive, the Al-Hadikhia chooses 3 good players tonight: if all 3 choose to live, evil wins. Otherwise, good wins.",
+        "translations": {
+          "ru": "Если [color=#8C0E12]Аль-Адихия[/color] умирает в результате казни, а [color=#8C0E12]Кукловод[/color] жив, сегодня ночью [color=#8C0E12]Аль-Адихия[/color] выбирает 3 добрых игроков. Если все трое выбирают жизнь, зло побеждает. В противном случае побеждает добро."
+        }
+      },
+      {
+        "id": "princess",
+        "reason": "If the Princess nominated \u0026 executed a player on their 1st day, no one dies to the Al-Hadikhia tonight.",
+        "translations": {
+          "ru": "Если в свой первый день [color=#3297F4]Принцесса[/color] номинировала игрока и тот был казнён, ближайшей ночью никто не умирает от способности [color=#8C0E12]Аль-Адихии[/color]."
+        }
+      }
+    ]
+  },
+  {
+    "id": "boffin",
+    "jinx": [
+      {
+        "id": "cultleader",
+        "reason": "If the Demon has the Cult Leader ability, they can’t turn good due to this ability.",
+        "translations": {
+          "ru": "Если [color=#8C0E12]Демон[/color] обладает способностью [color=#3297F4]Лидера культа[/color], эта способность не может сделать его добрым."
+        }
+      },
+      {
+        "id": "drunk",
+        "reason": "The Demon cannot have the Drunk ability.",
+        "translations": {
+          "ru": "[color=#8C0E12]Демон[/color] не может обладать способностью [color=#3297F4]Пьяницы[/color]."
+        }
+      },
+      {
+        "id": "goon",
+        "reason": "If the Demon has the Goon ability, they can’t turn good due to this ability.",
+        "translations": {
+          "ru": "Если [color=#8C0E12]Демон[/color] обладает способностью [color=#3297F4]Наемника[/color], эта способность не может сделать его добрым."
+        }
+      },
+      {
+        "id": "heretic",
+        "reason": "The Demon cannot have the Heretic ability.",
+        "translations": {
+          "ru": "[color=#8C0E12]Демон[/color] не может обладать способностью [color=#3297F4]Еретика[/color]."
+        }
+      },
+      {
+        "id": "ogre",
+        "reason": "The Demon cannot have the Ogre ability.",
+        "translations": {
+          "ru": "[color=#8C0E12]Демон[/color] не может обладать способностью [color=#3297F4]Огра[/color]."
+        }
+      },
+      {
+        "id": "politician",
+        "reason": "The Demon cannot have the Politician ability.",
+        "translations": {
+          "ru": "[color=#8C0E12]Демон[/color] не может обладать способностью [color=#3297F4]Политика[/color]."
+        }
+      },
+      {
+        "id": "villageidiot",
+        "reason": "If there is a spare token, the Boffin can give the Demon the Village Idiot ability.",
+        "translations": {
+          "ru": "Если есть свободный жетон, [color=#8C0E12]Умник[/color] может дать [color=#8C0E12]Демону[/color] способность [color=#3297F4]Дурачка[/color]."
+        }
+      }
+    ]
+  },
+  {
+    "id": "bountyhunter",
+    "jinx": [
+      {
+        "id": "kazali",
+        "reason": "If the Kazali turns the Bounty Hunter into a Minion, an evil Townsfolk is not created.",
+        "translations": {
+          "ru": "Если [color=#8C0E12]Казали[/color] превращает [color=#3297F4]Охотника за головами[/color] в [color=#8C0E12]Приспешника[/color], злой [color=#3297F4]Горожанин[/color] не создаётся."
+        }
+      },
+      {
+        "id": "philosopher",
+        "reason": "If the Philosopher gains the Bounty Hunter ability, a Townsfolk might turn evil.",
+        "translations": {
+          "ru": "Если [color=#3297F4]Философ[/color] получает способность [color=#3297F4]Охотника за головами[/color], один из [color=#3297F4]Горожан[/color] может стать злым."
+        }
+      }
+    ]
+  },
+  {
+    "id": "butler",
+    "jinx": [
+      {
+        "id": "organgrinder",
+        "reason": "If the Organ Grinder is causing eyes closed voting, the Butler may raise their hand to vote but their vote is only counted if their master voted too.",
+        "translations": {
+          "ru": "Если [color=#8C0E12]Шарманщик[/color] вызывает голосование с закрытыми глазами, [color=#3297F4]Дворецкий[/color] может поднять руку, чтобы проголосовать, но его голос засчитывается, только если его хозяин тоже проголосовал."
+        }
+      }
+    ]
+  },
+  {
+    "id": "cannibal",
+    "jinx": [
+      {
+        "id": "butler",
+        "reason": "If the Cannibal gains the Butler ability, the Cannibal learns this.",
+        "translations": {
+          "ru": "Если [color=#3297F4]Каннибал[/color] получает способность [color=#3297F4]Дворецкого[/color], он узнаёт об этом."
+        }
+      },
+      {
+        "id": "juggler",
+        "reason": "If the Juggler guesses on their first day and dies by execution, tonight the living Cannibal learns how many guesses the Juggler got correct.",
+        "translations": {
+          "ru": "Если [color=#3297F4]Жонглер[/color] делает предположения в свой первый день и умирает в результате казни, этой ночью живой [color=#3297F4]Каннибал[/color] узнаёт, сколько раз [color=#3297F4]Жонглер[/color] угадал правильно."
+        }
+      },
+      {
+        "id": "princess",
+        "reason": "If the Cannibal nominated, executed, \u0026 killed the Princess today, the Demon doesn’t kill tonight.",
+        "translations": {
+          "ru": "Если сегодня [color=#3297F4]Каннибал[/color] номинировал [color=#3297F4]Принцессу[/color], она была казнена и погибла, ближайшей ночью [color=#8C0E12]Демон[/color] не убивает."
+        }
+      },
+      {
+        "id": "zealot",
+        "reason": "If the Cannibal gains the Zealot ability, the Cannibal learns this.",
+        "translations": {
+          "ru": "Если [color=#3297F4]Каннибал[/color] получает способность [color=#3297F4]Фанатика[/color], он узнаёт об этом."
+        }
+      }
+    ]
+  },
+  {
+    "id": "cerenovus",
+    "jinx": [
+      {
+        "id": "goblin",
+        "reason": "The Cerenovus may choose to make a player mad that they are the Goblin.",
+        "translations": {
+          "ru": "[color=#8C0E12]Цереновус[/color] может сделать игрока «безумным» в том, что тот — [color=#8C0E12]Гоблин[/color]."
+        }
+      }
+    ]
+  },
+  {
+    "id": "heretic",
+    "jinx": [
+      {
+        "id": "baron",
+        "reason": "Only 1 jinxed character can be in play.",
+        "translations": {
+          "ru": "В игре может находиться только одна из двух ролей: [color=#3297F4]Еретик[/color] или [color=#8C0E12]Барон[/color]."
+        }
+      },
+      {
+        "id": "godfather",
+        "reason": "Only 1 jinxed character can be in play.",
+        "translations": {
+          "ru": "В игре может находиться только одна из двух ролей: [color=#3297F4]Еретик[/color] или [color=#8C0E12]Крестный отец[/color]."
+        }
+      },
+      {
+        "id": "lleech",
+        "reason": "Only 1 jinxed character can be in play.",
+        "translations": {
+          "ru": "В игре может находиться только одна из двух ролей: [color=#3297F4]Еретик[/color] или [color=#8C0E12]Пиявица[/color]."
+        }
+      },
+      {
+        "id": "pithag",
+        "reason": "Only 1 jinxed character can be in play.",
+        "translations": {
+          "ru": "В игре может находиться только одна из двух ролей: [color=#3297F4]Еретик[/color] или [color=#8C0E12]Яга[/color]."
+        }
+      },
+      {
+        "id": "spy",
+        "reason": "Only 1 jinxed character can be in play.",
+        "translations": {
+          "ru": "В игре может находиться только одна из двух ролей: [color=#3297F4]Еретик[/color] или [color=#8C0E12]Шпион[/color]."
+        }
+      },
+      {
+        "id": "widow",
+        "reason": "Only 1 jinxed character can be in play.",
+        "translations": {
+          "ru": "В игре может находиться только одна из двух ролей: [color=#3297F4]Еретик[/color] или [color=#8C0E12]Вдова[/color]."
+        }
+      }
+    ]
+  },
+  {
+    "id": "legion",
+    "jinx": [
+      {
+        "id": "engineer",
+        "reason": "If Legion is created, all evil players become Legion. If Legion is in play, the Engineer starts knowing this but has no ability.",
+        "translations": {
+          "ru": "Если [color=#8C0E12]Легион[/color] создан, все злые игроки становятся [color=#8C0E12]Легионом[/color]. Если [color=#8C0E12]Легион[/color] находится в игре, [color=#3297F4]Инженер[/color] начинает игру, зная об этом, но не имеет способности."
+        }
+      },
+      {
+        "id": "hatter",
+        "reason": "If Legion is created, all evil players become Legion. If Legion is in play, the Hatter has no ability.",
+        "translations": {
+          "ru": "Если [color=#8C0E12]Легион[/color] создан, все злые игроки становятся [color=#8C0E12]Легионом[/color]. Если [color=#8C0E12]Легион[/color] находится в игре, [color=#3297F4]Шляпник[/color] не имеет способности."
+        }
+      },
+      {
+        "id": "minstrel",
+        "reason": "If Legion died by execution today, Legion keeps their ability, but the Minstrel might learn they are Legion.",
+        "translations": {
+          "ru": "Если сегодня [color=#8C0E12]Легион[/color] погиб в результате казни, он сохраняет свою способность, но [color=#3297F4]Менестрель[/color] может узнать, что погиб [color=#8C0E12]Легион[/color]."
+        }
+      },
+      {
+        "id": "politician",
+        "reason": "The Politician might register as evil to Legion.",
+        "translations": {
+          "ru": "[color=#3297F4]Политик[/color] может определяться злым для способности [color=#8C0E12]Легиона[/color]."
+        }
+      },
+      {
+        "id": "preacher",
+        "reason": "If the Preacher chooses Legion, Legion keeps their ability, but the Preacher might learn they are Legion.",
+        "translations": {
+          "ru": "Если [color=#3297F4]Проповедник[/color] выбирает [color=#8C0E12]Легиона[/color], [color=#8C0E12]Легион[/color] сохраняет свою способность, но [color=#3297F4]Проповедник[/color] может узнать, что он — [color=#8C0E12]Легион[/color]."
+        }
+      },
+      {
+        "id": "summoner",
+        "reason": "If Legion is summoned, all evil players become Legion. ",
+        "translations": {
+          "ru": "Если [color=#8C0E12]Легион[/color] призван, все злые игроки становятся [color=#8C0E12]Легионом[/color]."
+        }
+      },
+      {
+        "id": "zealot",
+        "reason": "The Zealot might register as evil to Legion.",
+        "translations": {
+          "ru": "[color=#3297F4]Фанатик[/color] может определяться злым для способности [color=#8C0E12]Легиона[/color]."
+        }
+      }
+    ]
+  },
+  {
+    "id": "leviathan",
+    "jinx": [
+      {
+        "id": "banshee",
+        "reason": "Each night*, the Leviathan chooses an alive good player (different to previous nights): a chosen Banshee dies \u0026 gains their ability.",
+        "translations": {
+          "ru": "Каждую ночь*: [color=#8C0E12]Левиафан[/color] выбирает живого доброго игрока, отличного от выбранных в предыдущие ночи: выбранная [color=#3297F4]Банши[/color] умирает и получает свою способность."
+        }
+      },
+      {
+        "id": "exorcist",
+        "reason": "If the Leviathan nominates and executes the Exorcist-chosen player, good wins.",
+        "translations": {
+          "ru": "Если [color=#8C0E12]Левиафан[/color] номинирует и казнит игрока, выбранного [color=#3297F4]Экзорцистом[/color], добро побеждает."
+        }
+      },
+      {
+        "id": "farmer",
+        "reason": "Each night*, the Leviathan chooses an alive good player (different to previous nights): a chosen Farmer uses their ability but does not die.",
+        "translations": {
+          "ru": "Каждую ночь*: [color=#8C0E12]Левиафан[/color] выбирает живого доброго игрока, отличного от выбранных в предыдущие ночи: выбранный [color=#3297F4]Фермер[/color] использует свою способность, но не умирает."
+        }
+      },
+      {
+        "id": "grandmother",
+        "reason": "If the Leviathan is in play and the Grandchild dies by execution, evil wins.",
+        "translations": {
+          "ru": "Если [color=#8C0E12]Левиафан[/color] находится в игре и внук [color=#3297F4]Бабушки[/color] погибает в результате казни, зло побеждает."
+        }
+      },
+      {
+        "id": "hatter",
+        "reason": "The Leviathan cannot enter play after day 5.",
+        "translations": {
+          "ru": "[color=#8C0E12]Левиафан[/color] не может вступить в игру после 5-го дня."
+        }
+      },
+      {
+        "id": "innkeeper",
+        "reason": "If the Leviathan nominates and executes an Innkeeper-protected player, good wins.",
+        "translations": {
+          "ru": "Если [color=#8C0E12]Левиафан[/color] номинирует и казнит игрока, защищённого [color=#3297F4]Трактирщиком[/color], добро побеждает."
+        }
+      },
+      {
+        "id": "king",
+        "reason": "If the Leviathan is in play, and at least 1 player is dead, the King learns an alive character each night.",
+        "translations": {
+          "ru": "Если [color=#8C0E12]Левиафан[/color] находится в игре и хотя бы один игрок мёртв, каждую ночь [color=#3297F4]Король[/color] узнаёт одну живую роль."
+        }
+      },
+      {
+        "id": "mayor",
+        "reason": "If the Leviathan and the Mayor are alive on day 5 \u0026 no execution occurs, good wins.",
+        "translations": {
+          "ru": "Если на 5-й день [color=#8C0E12]Левиафан[/color] и [color=#3297F4]Мэр[/color] живы и казни не происходит, добро побеждает."
+        }
+      },
+      {
+        "id": "monk",
+        "reason": "If the Leviathan nominates and executes the Monk-protected player, good wins.",
+        "translations": {
+          "ru": "Если [color=#8C0E12]Левиафан[/color] номинирует и казнит игрока, защищённого [color=#3297F4]Монахом[/color], добро побеждает."
+        }
+      },
+      {
+        "id": "pithag",
+        "reason": "The Leviathan cannot enter play after day 5.",
+        "translations": {
+          "ru": "[color=#8C0E12]Левиафан[/color] не может вступить в игру после 5-го дня."
+        }
+      },
+      {
+        "id": "ravenkeeper",
+        "reason": "Each night*, the Leviathan chooses an alive player (different to previous nights): a chosen Ravenkeeper uses their ability but does not die.",
+        "translations": {
+          "ru": "Каждую ночь*: [color=#8C0E12]Левиафан[/color] выбирает живого игрока, отличного от выбранных в предыдущие ночи: выбранный [color=#3297F4]Смотритель воронов[/color] использует свою способность, но не умирает."
+        }
+      },
+      {
+        "id": "sage",
+        "reason": "Each night*, the Leviathan chooses an alive good player (different to previous nights): a chosen Sage uses their ability but does not die.",
+        "translations": {
+          "ru": "Каждую ночь*: [color=#8C0E12]Левиафан[/color] выбирает живого доброго игрока, отличного от выбранных в предыдущие ночи: выбранный [color=#3297F4]Мудрец[/color] использует свою способность, но не умирает."
+        }
+      },
+      {
+        "id": "soldier",
+        "reason": "If the Leviathan nominates and executes the Soldier, good wins.",
+        "translations": {
+          "ru": "Если [color=#8C0E12]Левиафан[/color] номинирует и казнит [color=#3297F4]Солдата[/color], добро побеждает."
+        }
+      }
+    ]
+  },
+  {
+    "id": "lilmonsta",
+    "jinx": [
+      {
+        "id": "hatter",
+        "reason": "If the Hatter dies \u0026 the Demon chooses Lil\u0027 Monsta, they also choose a Minion to become.",
+        "translations": {
+          "ru": "Если [color=#3297F4]Шляпник[/color] умирает, а [color=#8C0E12]Демон[/color] выбирает [color=#8C0E12]Монстренка[/color], он также выбирает, каким [color=#8C0E12]Приспешником[/color] стать."
+        }
+      },
+      {
+        "id": "magician",
+        "reason": "If the Magician is alive, the Storyteller chooses which Minion babysits Lil\u0027 Monsta. ",
+        "translations": {
+          "ru": "Если [color=#3297F4]Фокусник[/color] жив, Рассказчик выбирает, какой [color=#8C0E12]Приспешник[/color] будет присматривать за [color=#8C0E12]Монстренком[/color]."
+        }
+      },
+      {
+        "id": "poppygrower",
+        "reason": "If Lil\u0027 Monsta \u0026 the Poppy Grower are alive, Minions wake one by one, until one of them chooses to take the Lil\u0027 Monsta token.",
+        "translations": {
+          "ru": "Если [color=#8C0E12]Монстренок[/color] и [color=#3297F4]Дурманщик[/color] живы, [color=#8C0E12]Приспешники[/color] просыпаются по одному, пока один из них не решит взять жетон [color=#8C0E12]Монстренка[/color]."
+        }
+      },
+      {
+        "id": "psychopath",
+        "reason": "If the Psychopath is babysitting Lil\u0027 Monsta, they die when executed.",
+        "translations": {
+          "ru": "Если [color=#8C0E12]Психопат[/color] присматривает за [color=#8C0E12]Монстренком[/color], он умирает при казни."
+        }
+      },
+      {
+        "id": "scarletwoman",
+        "reason": "If Lil\u0027 Monsta dies with 5 or more players alive, the Scarlet Woman babysits Lil\u0027 Monsta for the rest of the game.",
+        "translations": {
+          "ru": "Если игрок, держащий жетон [color=#8C0E12]Монстренка[/color], умирает, когда в живых не менее 5 игроков, [color=#8C0E12]Блудница[/color] получает жетон [color=#8C0E12]Монстренка[/color] до конца игры."
+        }
+      },
+      {
+        "id": "vizier",
+        "reason": "If the Vizier is babysitting Lil\u0027 Monsta, they die when executed.",
+        "translations": {
+          "ru": "Если [color=#8C0E12]Визирь[/color] присматривает за [color=#8C0E12]Монстренком[/color], он умирает при казни."
+        }
+      }
+    ]
+  },
+  {
+    "id": "lleech",
+    "jinx": [
+      {
+        "id": "mastermind",
+        "reason": "If the Mastermind is alive and the Lleech host dies by execution, the Lleech lives but loses their ability.",
+        "translations": {
+          "ru": "Если [color=#8C0E12]Кукловод[/color] жив, а хозяин [color=#8C0E12]Пиявицы[/color] погибает в результате казни, [color=#8C0E12]Пиявица[/color] остаётся в живых, но теряет свою способность."
+        }
+      },
+      {
+        "id": "slayer",
+        "reason": "If the Slayer slays the Lleech host, the host dies.",
+        "translations": {
+          "ru": "Если [color=#3297F4]Истребитель[/color] выбирает своей целью хозяина [color=#8C0E12]Пиявицы[/color], хозяин умирает."
+        }
+      }
+    ]
+  },
+  {
+    "id": "magician",
+    "jinx": [
+      {
+        "id": "legion",
+        "reason": "If the Magician is in play, during the Demon info step, Legion wake in separate groups. Each group learns which players are good, but does not learn the Magician.",
+        "translations": {
+          "ru": "Если [color=#3297F4]Фокусник[/color] находится в игре, во время этапа информации для [color=#8C0E12]Демона[/color] игроки [color=#8C0E12]Легиона[/color] просыпаются отдельными группами. Каждая группа узнаёт, какие игроки добрые, но не узнаёт, кто из игроков — [color=#3297F4]Фокусник[/color]."
+        }
+      },
+      {
+        "id": "marionette",
+        "reason": "If the Magician is alive, the Demon doesn\u0027t know which neighbor is the Marionette.",
+        "translations": {
+          "ru": "Если [color=#3297F4]Фокусник[/color] жив, [color=#8C0E12]Демон[/color] не знает, кто из его соседей — [color=#8C0E12]Марионетка[/color]."
+        }
+      },
+      {
+        "id": "spy",
+        "reason": "When the Spy sees the Grimoire, the Demon and Magician\u0027s character tokens are removed.",
+        "translations": {
+          "ru": "Когда [color=#8C0E12]Шпион[/color] смотрит в Гримуар, из него убирают жетоны ролей [color=#8C0E12]Демона[/color] и [color=#3297F4]Фокусника[/color]."
+        }
+      },
+      {
+        "id": "vizier",
+        "reason": "If the Vizier is in play, the Magician has no ability but is immune to the Vizier\u0027s ability.",
+        "translations": {
+          "ru": "Если [color=#8C0E12]Визирь[/color] находится в игре, [color=#3297F4]Фокусник[/color] не имеет способности, но невосприимчив к способности [color=#8C0E12]Визиря[/color]."
+        }
+      },
+      {
+        "id": "widow",
+        "reason": "When the Widow sees the Grimoire, the Demon and Magician\u0027s character tokens are removed.",
+        "translations": {
+          "ru": "Когда [color=#8C0E12]Вдова[/color] смотрит в Гримуар, из него убирают жетоны ролей [color=#8C0E12]Демона[/color] и [color=#3297F4]Фокусника[/color]."
+        }
+      },
+      {
+        "id": "wraith",
+        "reason": "After each execution, the living Magician may publicly guess a living player as the Wraith. If correct, the Demon must choose the Wraith tonight.",
+        "translations": {
+          "ru": "После каждой казни живой [color=#3297F4]Фокусник[/color] может публично назвать одного из живых игроков [color=#8C0E12]Призраком[/color]. Если он угадал, этой ночью [color=#8C0E12]Демон[/color] должен выбрать [color=#8C0E12]Призрака[/color]."
+        }
+      }
+    ]
+  },
+  {
+    "id": "marionette",
+    "jinx": [
+      {
+        "id": "balloonist",
+        "reason": "If the Marionette thinks that they are the Balloonist, an Outsider might have been added during setup.",
+        "translations": {
+          "ru": "Если [color=#8C0E12]Марионетка[/color] считает себя [color=#3297F4]Аэронавтом[/color], при подготовке в игру мог быть добавлен [color=#3297F4]Изгой[/color]."
+        }
+      },
+      {
+        "id": "huntsman",
+        "reason": "If the Marionette thinks that they are the Huntsman, the Damsel was added during setup.",
+        "translations": {
+          "ru": "Если [color=#8C0E12]Марионетка[/color] считает себя [color=#3297F4]Егерем[/color], при подготовке в игру была добавлена [color=#3297F4]Дамочка[/color]."
+        }
+      },
+      {
+        "id": "kazali",
+        "reason": "If there would be a Marionette in play, they enter play after the Demon \u0026 must start as their neighbor.",
+        "translations": {
+          "ru": "Если [color=#8C0E12]Марионетка[/color] должна быть в игре, она вступает в игру после [color=#8C0E12]Демона[/color] и обязана начать игру рядом с ним."
+        }
+      },
+      {
+        "id": "lilmonsta",
+        "reason": "If there would be a Marionette in play, they enter play after the Demon \u0026 must start as their neighbor.",
+        "translations": {
+          "ru": "Если [color=#8C0E12]Марионетка[/color] должна быть в игре, она вступает в игру после [color=#8C0E12]Демона[/color] и обязана начать игру рядом с ним."
+        }
+      },
+      {
+        "id": "summoner",
+        "reason": "If there would be a Marionette in play, they enter play after the Demon \u0026 must start as their neighbor.",
+        "translations": {
+          "ru": "Если [color=#8C0E12]Марионетка[/color] должна быть в игре, она вступает в игру после [color=#8C0E12]Демона[/color] и обязана начать игру рядом с ним."
+        }
+      }
+    ]
+  },
+  {
+    "id": "mastermind",
+    "jinx": [
+      {
+        "id": "vigormortis",
+        "reason": "A Mastermind that has their ability keeps it if the Vigormortis dies.",
+        "translations": {
+          "ru": "[color=#8C0E12]Кукловод[/color], обладающий своей способностью, сохраняет её, если [color=#8C0E12]Вигормортис[/color] умирает."
+        }
+      }
+    ]
+  },
+  {
+    "id": "mathematician",
+    "jinx": [
+      {
+        "id": "chambermaid",
+        "reason": "The Chambermaid can detect if the Mathematician will wake tonight.",
+        "translations": {
+          "ru": "[color=#3297F4]Горничная[/color] может определить, проснётся ли [color=#3297F4]Математик[/color] этой ночью."
+        }
+      },
+      {
+        "id": "drunk",
+        "reason": "The Mathematician learns if the Drunk’s ability yielded false info or failed to work properly.",
+        "translations": {
+          "ru": "[color=#3297F4]Математик[/color] узнаёт, дала ли способность [color=#3297F4]Пьяницы[/color] ложную информацию или не сработала должным образом."
+        }
+      },
+      {
+        "id": "lunatic",
+        "reason": "The Mathematician learns if the Lunatic attacks a different player than the real Demon attacked.",
+        "translations": {
+          "ru": "[color=#3297F4]Математик[/color] узнаёт, атаковали ли [color=#3297F4]Безумец[/color] и настоящий [color=#8C0E12]Демон[/color] разных игроков."
+        }
+      },
+      {
+        "id": "marionette",
+        "reason": "The Mathematician learns if the Marionette’s ability yielded false info or failed to work properly.",
+        "translations": {
+          "ru": "[color=#3297F4]Математик[/color] узнаёт, дала ли способность [color=#8C0E12]Марионетки[/color] ложную информацию или не сработала должным образом."
+        }
+      }
+    ]
+  },
+  {
+    "id": "pithag",
+    "jinx": [
+      {
+        "id": "cultleader",
+        "reason": "If the Pit-Hag turns an evil player into the Cult Leader, they can\u0027t turn good due to their own ability.",
+        "translations": {
+          "ru": "Если [color=#8C0E12]Яга[/color] превращает злого игрока в [color=#3297F4]Лидера культа[/color], тот не может стать добрым благодаря собственной способности."
+        }
+      },
+      {
+        "id": "damsel",
+        "reason": "If a Pit-Hag creates a Damsel, the Storyteller chooses which player it is.",
+        "translations": {
+          "ru": "Если [color=#8C0E12]Яга[/color] создаёт [color=#3297F4]Дамочку[/color], Рассказчик выбирает, какой игрок ею станет."
+        }
+      },
+      {
+        "id": "goon",
+        "reason": "If the Pit-Hag turns an evil player into the Goon, they can\u0027t turn good due to their own ability.",
+        "translations": {
+          "ru": "Если [color=#8C0E12]Яга[/color] превращает злого игрока в [color=#3297F4]Наемника[/color], тот не может стать добрым благодаря собственной способности."
+        }
+      },
+      {
+        "id": "ogre",
+        "reason": "If the Pit-Hag turns an evil player into the Ogre, they can\u0027t turn good due to their own ability.",
+        "translations": {
+          "ru": "Если [color=#8C0E12]Яга[/color] превращает злого игрока в [color=#3297F4]Огра[/color], тот не может стать добрым благодаря собственной способности."
+        }
+      },
+      {
+        "id": "politician",
+        "reason": "If the Pit-Hag turns an evil player into the Politician, they can\u0027t turn good due to their own ability.",
+        "translations": {
+          "ru": "Если [color=#8C0E12]Яга[/color] превращает злого игрока в [color=#3297F4]Политика[/color], тот не может стать добрым благодаря собственной способности."
+        }
+      },
+      {
+        "id": "villageidiot",
+        "reason": "If there is a spare token, the Pit-Hag can create an extra Village Idiot. If so, the drunk Village Idiot might change.",
+        "translations": {
+          "ru": "Если есть свободный жетон, [color=#8C0E12]Яга[/color] может создать дополнительного [color=#3297F4]Дурачка[/color]. В этом случае может измениться, кто из [color=#3297F4]Дурачков[/color] пьян."
+        }
+      }
+    ]
+  },
+  {
+    "id": "plaguedoctor",
+    "jinx": [
+      {
+        "id": "baron",
+        "reason": "If the Storyteller would gain the Baron ability, up to two players become Outsiders.",
+        "translations": {
+          "ru": "Если Рассказчик должен получить способность [color=#8C0E12]Барона[/color], до двух игроков становятся [color=#3297F4]Изгоями[/color]."
+        }
+      },
+      {
+        "id": "boomdandy",
+        "reason": "If the Storyteller would gain the Boomdandy ability, a player becomes the Boomdandy.",
+        "translations": {
+          "ru": "Если Рассказчик должен получить способность [color=#8C0E12]Подрывника[/color], один из игроков становится [color=#8C0E12]Подрывником[/color]."
+        }
+      },
+      {
+        "id": "eviltwin",
+        "reason": "If the Storyteller would gain the Evil Twin ability, a player becomes the Evil Twin.",
+        "translations": {
+          "ru": "Если Рассказчик должен получить способность [color=#8C0E12]Злого близнеца[/color], один из игроков становится [color=#8C0E12]Злым близнецом[/color]."
+        }
+      },
+      {
+        "id": "fearmonger",
+        "reason": "If the Storyteller would gain the Fearmonger ability, a Minion gains it, and learns this.",
+        "translations": {
+          "ru": "Если Рассказчик должен получить способность [color=#8C0E12]Страшилы[/color], эту способность получает [color=#8C0E12]Приспешник[/color] и узнаёт об этом."
+        }
+      },
+      {
+        "id": "goblin",
+        "reason": "If the Storyteller would gain the Goblin ability, a Minion gains it, and learns this.",
+        "translations": {
+          "ru": "Если Рассказчик должен получить способность [color=#8C0E12]Гоблина[/color], эту способность получает [color=#8C0E12]Приспешник[/color] и узнаёт об этом."
+        }
+      },
+      {
+        "id": "marionette",
+        "reason": "If the Storyteller would gain the Marionette ability, one of the Demon\u0027s good neighbors becomes the Marionette.",
+        "translations": {
+          "ru": "Если Рассказчик должен получить способность [color=#8C0E12]Марионетки[/color], один из добрых соседей [color=#8C0E12]Демона[/color] становится [color=#8C0E12]Марионеткой[/color]."
+        }
+      },
+      {
+        "id": "scarletwoman",
+        "reason": "If the Storyteller would gain the Scarlet Woman ability, a Minion gains it, and learns this.",
+        "translations": {
+          "ru": "Если Рассказчик должен получить способность [color=#8C0E12]Блудницы[/color], эту способность получает [color=#8C0E12]Приспешник[/color] и узнаёт об этом."
+        }
+      },
+      {
+        "id": "spy",
+        "reason": "If the Storyteller would gain the Spy ability, a Minion gains it, and learns this.",
+        "translations": {
+          "ru": "Если Рассказчик должен получить способность [color=#8C0E12]Шпиона[/color], эту способность получает [color=#8C0E12]Приспешник[/color] и узнаёт об этом."
+        }
+      },
+      {
+        "id": "wraith",
+        "reason": "If the Storyteller would gain the Wraith ability, a Minion gains it, and learns this.",
+        "translations": {
+          "ru": "Если Рассказчик должен получить способность [color=#8C0E12]Призрака[/color], эту способность получает [color=#8C0E12]Приспешник[/color] и узнаёт об этом."
+        }
+      }
+    ]
+  },
+  {
+    "id": "recluse",
+    "jinx": [
+      {
+        "id": "ogre",
+        "reason": "If the Recluse registers as evil to the Ogre, the Ogre learns that they are evil.",
+        "translations": {
+          "ru": "Если [color=#3297F4]Затворник[/color] определяется для [color=#3297F4]Огра[/color] как злой, [color=#3297F4]Огр[/color] узнаёт, что сам является злым."
+        }
+      },
+      {
+        "id": "sage",
+        "reason": "The Recluse might register as the Demon to the Sage.",
+        "translations": {
+          "ru": "[color=#3297F4]Затворник[/color] может определиться для [color=#3297F4]Мудреца[/color] как [color=#8C0E12]Демон[/color]."
+        }
+      }
+    ]
+  },
+  {
+    "id": "riot",
+    "jinx": [
+      {
+        "id": "atheist",
+        "reason": "During a riot, if the Storyteller is nominated, players vote. If they are \"about to die\", the game ends. If not, they nominate again.",
+        "translations": {
+          "ru": "Во время мятежа, если Рассказчика номинируют, игроки голосуют. Если он «вот-вот умрёт», игра заканчивается. Иначе Рассказчик номинирует снова."
+        }
+      },
+      {
+        "id": "banshee",
+        "reason": "Each night*, Riot chooses an alive good player (different to previous nights): a chosen Banshee dies \u0026 gains their ability.",
+        "translations": {
+          "ru": "Каждую ночь*, [color=#8C0E12]Мятежник[/color] выбирает живого доброго игрока, отличного от выбранных в предыдущие ночи: выбранная [color=#3297F4]Банши[/color] умирает и получает свою способность."
+        }
+      },
+      {
+        "id": "exorcist",
+        "reason": "If Riot nominates and executes the Exorcist-chosen player, good wins.",
+        "translations": {
+          "ru": "Если [color=#8C0E12]Мятежник[/color] номинирует и казнит игрока, выбранного [color=#3297F4]Экзорцистом[/color], добро побеждает."
+        }
+      },
+      {
+        "id": "farmer",
+        "reason": "Each night*, Riot chooses an alive good player (different to previous nights): a chosen Farmer uses their ability but does not die.",
+        "translations": {
+          "ru": "Каждую ночь*, [color=#8C0E12]Мятежник[/color] выбирает живого доброго игрока, отличного от выбранных в предыдущие ночи: выбранный [color=#3297F4]Фермер[/color] использует свою способность, но не умирает."
+        }
+      },
+      {
+        "id": "grandmother",
+        "reason": "If Riot is in play and the Grandchild dies by execution, evil wins.",
+        "translations": {
+          "ru": "Если [color=#8C0E12]Мятежник[/color] находится в игре и Внук умирает в результате казни, зло побеждает."
+        }
+      },
+      {
+        "id": "innkeeper",
+        "reason": "If Riot nominates and executes an Innkeeper-protected player, good wins.",
+        "translations": {
+          "ru": "Если [color=#8C0E12]Мятежник[/color] номинирует и казнит игрока, защищённого [color=#3297F4]Трактирщиком[/color], добро побеждает."
+        }
+      },
+      {
+        "id": "king",
+        "reason": "If Riot is in play, and at least 1 player is dead, the King learns an alive character each night.",
+        "translations": {
+          "ru": "Если [color=#8C0E12]Мятежник[/color] находится в игре и хотя бы один игрок мёртв, [color=#3297F4]Король[/color] каждую ночь узнаёт одну роль живого игрока."
+        }
+      },
+      {
+        "id": "mayor",
+        "reason": "The Mayor may choose to stop the riot. If they do so when only 1 Riot is alive, good wins. Otherwise, evil wins.",
+        "translations": {
+          "ru": "[color=#3297F4]Мэр[/color] может решить остановить мятеж. Если он делает это, когда жив только один [color=#8C0E12]Мятежник[/color], добро побеждает. В противном случае побеждает зло."
+        }
+      },
+      {
+        "id": "monk",
+        "reason": "If Riot nominates and executes the Monk-protected player, good wins.",
+        "translations": {
+          "ru": "Если [color=#8C0E12]Мятежник[/color] номинирует и казнит игрока, защищённого [color=#3297F4]Монахом[/color], добро побеждает."
+        }
+      },
+      {
+        "id": "ravenkeeper",
+        "reason": "Each night*, Riot chooses an alive good player (different to previous nights): a chosen Ravenkeeper uses their ability but does not die.",
+        "translations": {
+          "ru": "Каждую ночь*, [color=#8C0E12]Мятежник[/color] выбирает живого доброго игрока, отличного от выбранных в предыдущие ночи: выбранный [color=#3297F4]Смотритель воронов[/color] использует свою способность, но не умирает."
+        }
+      },
+      {
+        "id": "sage",
+        "reason": "Each night*, Riot chooses an alive good player (different to previous nights): a chosen Sage uses their ability but does not die.",
+        "translations": {
+          "ru": "Каждую ночь*, [color=#8C0E12]Мятежник[/color] выбирает живого доброго игрока, отличного от выбранных в предыдущие ночи: выбранный [color=#3297F4]Мудрец[/color] использует свою способность, но не умирает."
+        }
+      },
+      {
+        "id": "soldier",
+        "reason": "If Riot nominates and executes the Soldier, good wins.",
+        "translations": {
+          "ru": "Если [color=#8C0E12]Мятежник[/color] номинирует и казнит [color=#3297F4]Солдата[/color], добро побеждает."
+        }
+      }
+    ]
+  },
+  {
+    "id": "scarletwoman",
+    "jinx": [
+      {
+        "id": "alhadikhia",
+        "reason": "If there would be two Demons, one of which was the Scarlet Woman, the Scarlet Woman becomes the Scarlet Woman again.",
+        "translations": {
+          "ru": "Если в игре должно быть два [color=#8C0E12]Демона[/color], тот из них, кто прежде был [color=#8C0E12]Блудницей[/color], снова становится [color=#8C0E12]Блудницей[/color]."
+        }
+      },
+      {
+        "id": "fanggu",
+        "reason": "If there would be two Demons, one of which was the Scarlet Woman, the Scarlet Woman remains the Scarlet Woman.",
+        "translations": {
+          "ru": "Если в игре должно быть два [color=#8C0E12]Демона[/color], тот из них, кто прежде был [color=#8C0E12]Блудницей[/color], остаётся [color=#8C0E12]Блудницей[/color]."
+        }
+      }
+    ]
+  },
+  {
+    "id": "spy",
+    "jinx": [
+      {
+        "id": "damsel",
+        "reason": "If the Spy is (or has been) in play, the Damsel is poisoned.",
+        "translations": {
+          "ru": "Если [color=#8C0E12]Шпион[/color] находится или когда-либо находился в игре, [color=#3297F4]Дамочка[/color] отравлена."
+        }
+      },
+      {
+        "id": "ogre",
+        "reason": "The Spy registers as evil to the Ogre.",
+        "translations": {
+          "ru": "[color=#8C0E12]Шпион[/color] определяется для [color=#3297F4]Огра[/color] как злой."
+        }
+      },
+      {
+        "id": "poppygrower",
+        "reason": "If the Poppy Grower has their ability, the Spy does not see the Grimoire.",
+        "translations": {
+          "ru": "Если [color=#3297F4]Дурманщик[/color] обладает своей способностью, [color=#8C0E12]Шпион[/color] не видит Гримуар."
+        }
+      }
+    ]
+  },
+  {
+    "id": "summoner",
+    "jinx": [
+      {
+        "id": "clockmaker",
+        "reason": "The Summoner registers as the Demon to the Clockmaker.",
+        "translations": {
+          "ru": "[color=#8C0E12]Призыватель[/color] определяется для [color=#3297F4]Часовщика[/color] как [color=#8C0E12]Демон[/color]."
+        }
+      },
+      {
+        "id": "courtier",
+        "reason": "If the living Summoner has no ability, the Storyteller has the Summoner ability.",
+        "translations": {
+          "ru": "Если живой [color=#8C0E12]Призыватель[/color] не обладает своей способностью, Рассказчик обладает способностью [color=#8C0E12]Призывателя[/color]."
+        }
+      },
+      {
+        "id": "engineer",
+        "reason": "If the living Summoner is removed from play, the Storyteller has the Summoner ability.",
+        "translations": {
+          "ru": "Если живого [color=#8C0E12]Призывателя[/color] выводят из игры, Рассказчик обладает способностью [color=#8C0E12]Призывателя[/color]."
+        }
+      },
+      {
+        "id": "hatter",
+        "reason": "If the Summoner creates a second living Demon, deaths tonight are arbitrary.",
+        "translations": {
+          "ru": "Если [color=#8C0E12]Призыватель[/color] создаёт второго живого [color=#8C0E12]Демона[/color], смерти этой ночью произвольны."
+        }
+      },
+      {
+        "id": "kazali",
+        "reason": "If the Summoner creates a second living Demon, deaths tonight are arbitrary.",
+        "translations": {
+          "ru": "Если [color=#8C0E12]Призыватель[/color] создаёт второго живого [color=#8C0E12]Демона[/color], смерти этой ночью произвольны."
+        }
+      },
+      {
+        "id": "lordoftyphon",
+        "reason": "If a Lord of Typhon is summoned, they must neighbor a Minion \u0026 their other neighbor becomes an evil Minion.",
+        "translations": {
+          "ru": "Если призван [color=#8C0E12]Владыка Тифона[/color], он должен соседствовать с [color=#8C0E12]Приспешником[/color], а другой его сосед становится злым [color=#8C0E12]Приспешником[/color]."
+        }
+      },
+      {
+        "id": "pithag",
+        "reason": "If the Summoner creates a second living Demon, deaths tonight are arbitrary.",
+        "translations": {
+          "ru": "Если [color=#8C0E12]Призыватель[/color] создаёт второго живого [color=#8C0E12]Демона[/color], смерти этой ночью произвольны."
+        }
+      },
+      {
+        "id": "poppygrower",
+        "reason": "If the Poppy Grower is alive on the 3rd night, the Summoner chooses which Demon but not which player.",
+        "translations": {
+          "ru": "Если в третью ночь [color=#3297F4]Дурманщик[/color] жив, [color=#8C0E12]Призыватель[/color] выбирает роль [color=#8C0E12]Демона[/color], но не игрока, который ею станет."
+        }
+      },
+      {
+        "id": "preacher",
+        "reason": "If the living Summoner has no ability, the Storyteller has the Summoner ability.",
+        "translations": {
+          "ru": "Если живой [color=#8C0E12]Призыватель[/color] не обладает своей способностью, Рассказчик обладает способностью [color=#8C0E12]Призывателя[/color]."
+        }
+      },
+      {
+        "id": "pukka",
+        "reason": "The Summoner may summon a Pukka on the 2nd night instead of the 3rd.",
+        "translations": {
+          "ru": "[color=#8C0E12]Призыватель[/color] может призвать [color=#8C0E12]Пукку[/color] во вторую ночь вместо третьей."
+        }
+      },
+      {
+        "id": "zombuul",
+        "reason": "If the Summoner summons a dead player into the Zombuul, the Zombuul has already \"died once\".",
+        "translations": {
+          "ru": "Если [color=#8C0E12]Призыватель[/color] превращает мёртвого игрока в [color=#8C0E12]Зомбула[/color], считается, что [color=#8C0E12]Зомбул[/color] уже «умер один раз»."
+        }
+      }
+    ]
+  },
+  {
+    "id": "vizier",
+    "jinx": [
+      {
+        "id": "alsaahir",
+        "reason": "The Storyteller doesn\u0027t declare the Vizier is in play.",
+        "translations": {
+          "ru": "Рассказчик не объявляет, что [color=#8C0E12]Визирь[/color] находится в игре."
+        }
+      },
+      {
+        "id": "courtier",
+        "reason": "If the Vizier loses their ability, they learn this, and cannot die during the day.",
+        "translations": {
+          "ru": "Если [color=#8C0E12]Визирь[/color] теряет свою способность, он узнаёт об этом и не может умереть днём."
+        }
+      },
+      {
+        "id": "fearmonger",
+        "reason": "The Vizier wakes with the Fearmonger, learns who they choose and cannot choose to immediately execute that player.",
+        "translations": {
+          "ru": "[color=#8C0E12]Визирь[/color] просыпается вместе со [color=#8C0E12]Страшилой[/color], узнаёт, кого тот выбирает, и не может немедленно утвердить казнь этого игрока."
+        }
+      },
+      {
+        "id": "investigator",
+        "reason": "The Storyteller doesn\u0027t declare the Vizier is in play.",
+        "translations": {
+          "ru": "Рассказчик не объявляет, что [color=#8C0E12]Визирь[/color] находится в игре."
+        }
+      },
+      {
+        "id": "politician",
+        "reason": "The Politician might register as evil to the Vizier.",
+        "translations": {
+          "ru": "[color=#3297F4]Политик[/color] может определиться для [color=#8C0E12]Визиря[/color] как злой."
+        }
+      },
+      {
+        "id": "preacher",
+        "reason": "If the Vizier loses their ability, they learn this, and cannot die during the day.",
+        "translations": {
+          "ru": "Если [color=#8C0E12]Визирь[/color] теряет свою способность, он узнаёт об этом и не может умереть днём."
+        }
+      },
+      {
+        "id": "zealot",
+        "reason": "The Zealot might register as evil to the Vizier.",
+        "translations": {
+          "ru": "[color=#3297F4]Фанатик[/color] может определиться для [color=#8C0E12]Визиря[/color] как злой."
+        }
+      }
+    ]
+  },
+  {
+    "id": "vortox",
+    "jinx": [
+      {
+        "id": "banshee",
+        "reason": "If the Vortox kills the Banshee, all players learn that the Banshee has died.",
+        "translations": {
+          "ru": "Если [color=#8C0E12]Вортокс[/color] убивает [color=#3297F4]Банши[/color], все игроки узнают, что [color=#3297F4]Банши[/color] умерла."
+        }
+      }
+    ]
+  },
+  {
+    "id": "widow",
+    "jinx": [
+      {
+        "id": "damsel",
+        "reason": "If the Widow is (or has been) in play, the Damsel is poisoned.",
+        "translations": {
+          "ru": "Если [color=#8C0E12]Вдова[/color] находится или когда-либо находилась в игре, [color=#3297F4]Дамочка[/color] отравлена."
+        }
+      },
+      {
+        "id": "poppygrower",
+        "reason": "If the Poppy Grower has their ability, the Widow does not see the Grimoire.",
+        "translations": {
+          "ru": "Если [color=#3297F4]Дурманщик[/color] обладает своей способностью, [color=#8C0E12]Вдова[/color] не видит Гримуар."
+        }
+      }
+    ]
+  },
+  {
+    "id": "yaggababble",
+    "jinx": [
+      {
+        "id": "exorcist",
+        "reason": "If the Exorcist chooses the Yaggababble, the Yaggababble does not kill tonight.",
+        "translations": {
+          "ru": "Если [color=#3297F4]Экзорцист[/color] выбирает [color=#8C0E12]Ягатрёпа[/color], [color=#8C0E12]Ягатрёп[/color] не убивает этой ночью."
+        }
+      }
+    ]
+  }
+]

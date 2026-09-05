@@ -1,0 +1,58 @@
+{
+  "name": "@botc-pdf/generator",
+  "version": "0.1.0",
+  "private": true,
+  "description": "TypeScript CLI that renders Blood on the Clocktower player references with HTML/CSS and Chromium.",
+  "type": "module",
+  "engines": {
+    "node": ">=20.11"
+  },
+  "bin": {
+    "botc-pdf": "./dist/cli/index.js"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "assets",
+    "catalog",
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json && node scripts/copy-assets.mjs",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:pdf": "vitest run --config vitest.pdf.config.ts",
+    "check": "npm run format:check && npm run typecheck && npm test",
+    "pregenerate": "npm run build",
+    "generate": "node dist/cli/index.js generate",
+    "install:browser": "playwright install chromium",
+    "format": "prettier --write \"src/**/*.{ts,tsx,css}\" \"tests/**/*.ts\" \"*.{ts,json}\" \"scripts/*.mjs\" \"README.md\" \"examples/*.json\"",
+    "format:check": "prettier --check \"src/**/*.{ts,tsx,css}\" \"tests/**/*.ts\" \"*.{ts,json}\" \"scripts/*.mjs\" \"README.md\" \"examples/*.json\"",
+    "catalog:ru": "node scripts/build-russian-catalog.mjs",
+    "assets:roles": "node scripts/download-role-assets.mjs",
+    "assets:roles:check": "node scripts/download-role-assets.mjs --check"
+  },
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "commander": "^14.0.0",
+    "playwright": "^1.54.1",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.1.0",
+    "@types/react": "^19.1.9",
+    "@types/react-dom": "^19.1.7",
+    "cheerio": "^1.0.0",
+    "prettier": "^3.9.6",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.4"
+  }
+}
