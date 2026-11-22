@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Генератор памяток BOTC</title>
+    <script type="module" src="/client.js"></script>
+    <style>
+      :root {
+        font:
+          16px/1.5 system-ui,
+          sans-serif;
+        color: #241c29;
+        background: #f5f1f6;
+      }
+
+      body {
+        box-sizing: border-box;
+        min-height: 100vh;
+        margin: 0;
+        padding: 32px 16px;
+        display: grid;
+        place-items: center;
+      }
+
+      main {
+        box-sizing: border-box;
+        width: min(100%, 540px);
+        padding: clamp(20px, 5vw, 36px);
+        border: 1px solid #ddd3e0;
+        border-radius: 16px;
+        background: #fff;
+      }
+
+      h1 {
+        margin: 0 0 4px;
+        font-size: clamp(1.5rem, 6vw, 2rem);
+        line-height: 1.2;
+      }
+
+      header p {
+        margin: 0 0 24px;
+        color: #5f5265;
+      }
+
+      form {
+        display: grid;
+        gap: 8px;
+      }
+
+      input {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #cbbdce;
+        border-radius: 8px;
+        font: inherit;
+      }
+
+      button {
+        justify-self: start;
+        margin-top: 8px;
+        padding: 10px 16px;
+        border: 0;
+        border-radius: 8px;
+        color: #fff;
+        background: #573763;
+        font: inherit;
+        font-weight: 600;
+        cursor: pointer;
+      }
+
+      button:disabled {
+        cursor: wait;
+        opacity: 0.65;
+      }
+
+      #status {
+        margin: 16px 0 0;
+        color: #5f5265;
+        overflow-wrap: anywhere;
+        white-space: pre-line;
+      }
+
+      #status:empty {
+        margin: 0;
+      }
+
+      #status[data-error] {
+        color: #91252c;
+      }
+
+      #downloads:not([hidden]) {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px 20px;
+        margin-top: 12px;
+      }
+
+      a {
+        color: #573763;
+        font-weight: 600;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Генератор памяток BOTC</h1>
+        <p>PDF для игроков и рассказчика на русском языке.</p>
+      </header>
+      <form id="upload">
+        <label for="script">Файл сценария (.json)</label>
+        <input
+          id="script"
+          type="file"
+          accept=".json,application/json"
+          required
+        />
+        <button id="generate" type="submit">Создать PDF</button>
+      </form>
+      <p id="status" role="status"></p>
+      <div id="downloads" hidden>
+        <a id="players" download>Скачать памятку игроков</a>
+        <a id="storyteller" download>Скачать памятку рассказчика</a>
+      </div>
+    </main>
+  </body>
+</html>

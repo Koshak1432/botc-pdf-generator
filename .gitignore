@@ -2,6 +2,7 @@
 node_modules/
 dist/
 *.tsbuildinfo
+/BOTC-PDF-Generator.exe
 
 # Локальные кэши
 .cache/
@@ -11,6 +12,9 @@ dist/
 output/
 tmp/
 *.pdf
+
+# Локальные сценарии
+scripts_json/
 
 # Отчёты тестов и покрытия
 coverage/
